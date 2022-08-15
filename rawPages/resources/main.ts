@@ -29,7 +29,6 @@ window.addEventListener('load', async function() {
                 enable: true,
                 size: true,
                 speed: 1,
-                trail: { enable: false, length: 3, fillColor: { value: "#000000" } },
             },
             number: {
                 density: { enable: true, area: 800, factor: 1600 },
