@@ -1,15 +1,15 @@
-import type { tsParticles as tsPI } from 'tsparticles/types/bundle'
+import type { tsParticles as tsPI, Container } from 'tsparticles/types/bundle'
 declare const tsParticles: typeof tsPI
 
-var c: any
+var c: Container
 
 window.addEventListener('load', async function() {
-    c = await tsParticles.load("tsparticles", {
+    const cu = await tsParticles.load("tsparticles", {
         autoPlay: true,
         background: {
             color: { value: "#222" }
         },
-        // fullScreen: { enable: true, zIndex: 1 },
+        fullScreen: { enable: true, zIndex: -1 },
         detectRetina: true,
         fpsLimit: 144,
         particles: {
@@ -61,5 +61,6 @@ window.addEventListener('load', async function() {
         pauseOnOutsideViewport: true,
         zLayers: 1
     });
-    c.canvas.element.style.zIndex = -1;
+    if (!cu) return;
+    c = cu;
 });
