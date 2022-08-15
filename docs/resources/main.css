@@ -1,7 +1,7 @@
 :root {
-    --bg-primary-colour: #111a;
+    --bg-primary-colour: #111;
     --bg-secondary-colour: #191919aa;
-    --bg-tertiary-colour: #555a;
+    --bg-tertiary-colour: #5555;
 
     --fg-primary-colour: #ddd;
     --fg-secondary-colour: #ccc;
@@ -164,8 +164,8 @@ body > *:not(#tsparticles) {
 @media (orientation: portrait) {
     :root {
         --bg-primary-colour: #111;
-        --bg-secondary-colour: #222;
-        --bg-tertiary-colour: #292929;
+        --bg-secondary-colour: #222d;
+        --bg-tertiary-colour: #4445;
 
         --txt-size-name: 70px;
         --txt-size-large: 60px;
