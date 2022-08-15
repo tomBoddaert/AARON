@@ -1,0 +1,7 @@
+{
+  "type": "commonjs",
+  "dependencies": {
+    "tsparticles": "^2.2.1",
+    "typescript": "^4.7.4"
+  }
+}

@@ -1,0 +1,14 @@
+{{ define "Sidebar" }}
+<aside class="Sidebar">
+    <img class="profile-image" src="/AARON.png" alt="Hexagonal profile image" />
+    <div class="Name">A.A.R.O.N.</div>
+    <span class="line"></span>
+
+    <nav class="Sidebar-nav">
+        <a class="nav-link" href="/"><span class="material-icons-outlined">home</span> <span>Home</span></a>
+        <a class="nav-link" href="/links"><span class="material-icons-outlined">link</span> <span>Links</span></a>
+        <a class="nav-link" href="/contact"><span class="material-icons-outlined">chat_bubble_outline</span> <span>Contact</span></a>
+        <span class="nav-link" onclick="window.open('/squad.xml')"><span class="material-icons-outlined">code</span> <span>squad.xml</span></span>
+    </nav>
+</aside>
+{{ end }}

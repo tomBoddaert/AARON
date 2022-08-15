@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE squad SYSTEM "squad.dtd">
+<?xml-stylesheet href="squad.xsl" type="text/xsl"?>
+
+<squad nick="A.A.R.O.N.">
+    <name>Arma Advanced Recon and Operations Network</name>
+    <email>aaron@tomboddaert.com</email>
+    <web>aaron.tomboddaert.com</web>
+    <picture>AARON.paa</picture>
+    <title>A.A.R.O.N.</title>
+    <member id="76561198289197958" nick="=[AARON]= Tom Boddaert">
+        <name>Tom Boddaert</name>
+        <email>contact@tomboddaert.com</email>
+        <icq>N/A</icq>
+        <remark>N/A</remark>
+    </member>
+</squad>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <title>{{ .Title }}</title>
+        <meta name="title" content="{{ .Title }}">
+
+        <!-- <link rel="icon" type="image/svg+xml;base64" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjA0OCIgaGVpZ2h0PSIyMDQ4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9IgogICAgICAgIE0gMTQsICA2NAogICAgICAgIEwgMzksICAyMC42OTg3CiAgICAgICAgTCA4OSwgIDIwLjY5ODcKICAgICAgICBMIDExNCwgNjQKICAgICAgICBMIDE0LCAgNjQKICAgICIgZmlsbD0iIzJjMmYzMyIgLz4KCiAgICA8cGF0aCBkPSIKICAgICAgICBNIDE0LCAgNjQKICAgICAgICBMIDExNCwgNjQKICAgICAgICBMIDg5LCAgMTA3LjMwMTMKICAgICAgICBMIDY0LCAgNjQKICAgICAgICBMIDM5LCAgMTA3LjMwMTMKICAgICAgICBaCiAgICAiIGZpbGw9IiNlNzMiIC8+CgogICAgPHBhdGggZD0iCiAgICAgICAgTSA2NCwgNjQKICAgICAgICBMIDg5LCAxMDcuMzAxMwogICAgICAgIEwgMzksIDEwNy4zMDEzCiAgICAgICAgWgogICAgIiBmaWxsPSIjZjZmNmY2IiAvPgoKICAgIDxsaW5lIHgxPSIxNCIgeTE9IjY0IiB4Mj0iMzkiIHkyPSIyMC42OTg3IiBzdHJva2U9IiNmZmZmZmYiIC8+CiAgICA8bGluZSB4MT0iMzkiIHkxPSIyMC42OTg3IiB4Mj0iODkiIHkyPSIyMC42OTg3IiBzdHJva2U9IiNmZmZmZmYiIC8+CiAgICA8bGluZSB4MT0iODkiIHkxPSIyMC42OTg3IiB4Mj0iMTE0IiB5Mj0iNjQiIHN0cm9rZT0iI2ZmZmZmZiIgLz4KICAgIDxsaW5lIHgxPSIxMTQiIHkxPSI2NCIgeDI9Ijg5IiB5Mj0iMTA3LjMwMTMiIHN0cm9rZT0iI2ZmZmZmZiIgLz4KICAgIDxsaW5lIHgxPSI4OSIgeTE9IjEwNy4zMDEzIiB4Mj0iMzkiIHkyPSIxMDcuMzAxMyIgc3Ryb2tlPSIjZmZmZmZmIiAvPgogICAgPGxpbmUgeDE9IjM5IiB5MT0iMTA3LjMwMTMiIHgyPSIxNCIgeTI9IjY0IiBzdHJva2U9IiNmZmZmZmYiIC8+CgogICAgPGxpbmUgeDE9IjE0IiB5MT0iNjQiIHgyPSIxMTQiIHkyPSI2NCIgc3Ryb2tlPSIjZmZmZmZmIiAvPgogICAgPGxpbmUgeDE9IjM5IiB5MT0iMTA3LjMwMTMiIHgyPSI2NCIgeTI9IjY0IiBzdHJva2U9IiNmZmZmZmYiIC8+CiAgICA8bGluZSB4MT0iODkiIHkxPSIxMDcuMzAxMyIgeDI9IjY0IiB5Mj0iNjQiIHN0cm9rZT0iI2ZmZmZmZiIgLz4KPC9zdmc+"> -->
+        <link rel="icon" type="image/png" href="/AARON.png">
+
+        <meta name="description" content="{{ .Title }}">
+        <meta name="keywords" content="Arma, gaming">
+
+        <meta name="author" content="Tom Boddaert">
+
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Material+Icons+Outlined&display=swap" rel="stylesheet">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/2.2.1/tsparticles.bundle.min.js" integrity="sha512-X8jmZdtqByarxxdeXeAT+TL0Hc73y4D6jK3ThDGHexBANO6NfQi+IdIr7ailPtpwBv5n3jWuPb6NBlHp4mbDvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+        <link rel="stylesheet" href="/resources/main.css">
+        <script>const exports = {}</script>
+        <script src="/resources/main.js" charset="utf-8"></script>
+    </head>
+
+    <body>
+        <div id="tsparticles"></div>
+
+        {{ template "Sidebar" }}
+
+        {{ template "Main" . }}
+    </body>
+</html>
