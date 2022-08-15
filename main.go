@@ -135,7 +135,7 @@ func check(err error) {
 
 type pageData struct {
 	Title string
-	// Content string
+	URL   string
 }
 
 func build() {
@@ -283,7 +283,8 @@ func copyTemplatedDir(tmplName string, subDir string, tmpl *template.Template, p
 
 		// Build page
 		data := pageData{
-			Title,
+			Title: Title,
+			URL:   path.Join(subDir, tmplPage.Name()),
 		}
 
 		pageBuf := bytes.NewBuffer(nil)
