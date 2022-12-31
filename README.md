@@ -1,5 +1,4 @@
-<!-- ![Our Logo](rawPages/resources/profile-image.svg) -->
-![Our Logo](rawPages/AARON.png)
+![Our Logo](rawPages/aaron.png)
 # [A.A.R.O.N.](https://aaron.tomboddaert.com/)
 
 Arma Advanced Recon and Operations Network
