@@ -2,13 +2,13 @@
 <!DOCTYPE squad SYSTEM "squad.dtd">
 <?xml-stylesheet href="squad.xsl" type="text/xsl"?>
 
-<squad nick="A.A.R.O.N.">
+<squad nick="AARON">
     <name>Arma Advanced Recon and Operations Network</name>
     <email>aaron@tomboddaert.com</email>
     <web>aaron.tomboddaert.com</web>
     <picture>AARON256.paa</picture>
     <title>A.A.R.O.N.</title>
-    <member id="76561198289197958" nick="=[AARON]= Tom Boddaert">
+    <member id="76561198289197958" nick="Tom">
         <name>Tom Boddaert</name>
         <email>contact@tomboddaert.com</email>
         <icq>N/A</icq>
