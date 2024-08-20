@@ -1,0 +1,18 @@
+{
+  "main": {
+    "URL": "",
+    "title": "A.A.R.O.N."
+  },
+  "main/404.html": {
+    "URL": "404",
+    "title": "Error 404 - A.A.R.O.N."
+  },
+  "main/contact.html": {
+    "URL": "contact",
+    "title": "Contact - A.A.R.O.N."
+  },
+  "main/links.html": {
+    "URL": "links",
+    "title": "Links - A.A.R.O.N."
+  }
+}

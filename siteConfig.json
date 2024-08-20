@@ -1,0 +1,11 @@
+{
+  "TemplateRootFile": "template.html",
+  "DstDir": "docs",
+  "FmtTemplatedHtml": true,
+  "ExcludePaths": [
+    "\\.m?ts$"
+  ],
+  "PostbuildCmds": [
+    ["npx", "tsc", "-p", "tsconfig.jsonc"]
+  ]
+}
